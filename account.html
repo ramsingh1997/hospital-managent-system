@@ -1,0 +1,38 @@
+<html>
+<head>
+<meta name="spm" content="Hospital Management System">
+<title>Account Entry Form</title>
+</head>
+<body>
+<table align=center width=1000 cellspacing=0 cellpadding=5>
+<tr bgcolor=blue><td align=center><font SIZE=8 color=white>HOSPITAL
+MANAGEMENT SYSTEM</font></td></tr>
+<!--
+<tr><td><table align=center width=750 cellspacing=0 cellpadding=5>
+<tr><td align=center><a href=dlist.php>Doctors</td><td align=center><a
+href=plist.php>Patients</td><td align=center><a
+href=app.php>Appointments</td>
+</table></td></tr>
+-->
+<tr bgcolor=red><td ><font size=4 color=white>ACCOUNT </font></td></tr>
+<form method="post" action="addAcc.php">
+<tr><td><table width=750 cellspacing=0 cellpadding=5>
+<tr><td>Registration no</td><td><input type="number" name="Reg_no" size=30
+maxlength=30></td></tr>
+<tr><td>Receipt no</td><td><input type="number" name="Recp_no" size=30
+maxlength=30></td></tr>
+<tr><td>Registration date</td><td><input type="date" name="Reg_date" size=20
+maxlength=30>(yyyy-mm-dd)</td></tr>
+<tr><td>Medicine fees</td><td><input type="number" name="Medicine_fees"  size=30
+maxlength=30></td></tr>
+<tr><td>Laboratory fees</td><td><input type="number" name="Lab_fees" size=30
+maxlength=30></td></tr>
+<tr><td>Doctor fees</td><td><input type="number" name="Dr_fees" size=30
+maxlength=30></td></tr>
+</table></td></tr>
+<tr><td><a href="account.html"><input type="submit" value="Submit"></a></td></tr>
+<tr><td><a href="acclist.php"><input type="Button" value="Back"></a></td></tr>
+</form>
+</table>
+</body>
+
